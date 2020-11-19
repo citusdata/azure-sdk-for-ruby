@@ -33,7 +33,7 @@ module Azure::Compute::Mgmt::V2019_07_01
               value: {
                 client_side_validation: true,
                 required: false,
-                serialized_name: 'value',
+                serialized_name: 'properties.output.value',
                 type: {
                   name: 'Sequence',
                   element: {
